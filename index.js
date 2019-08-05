@@ -10,6 +10,15 @@ function takeANumber(katzDeliLine, newPerson) {
 
 } 
 
+function takeANumber(katzDeliLine) {
+  let num = 0;
+  
+  num++
+  
+  katzDeliLine.push(num);
+  return ("Welcome, you have ticket number" + num + ".")
+} 
+
 
 
 
